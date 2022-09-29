@@ -1,0 +1,14 @@
+img{
+    max-width: 100%;
+}
+
+/* header */
+
+
+#ms-top-header{
+    background-color: black;
+}
+
+#ms-top-header img{
+    width: 20%; 
+}
