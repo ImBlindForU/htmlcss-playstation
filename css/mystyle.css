@@ -43,3 +43,10 @@ img{
 .ms-grandezza{
     width: 60%;
 }
+
+/* nuove uscite */
+
+#nuove-uscite .container-fluid{
+    background-color: #1F1F1F;
+    color: white;
+}
