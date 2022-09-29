@@ -75,4 +75,12 @@ footer .container-fluid{
 
 footer ul li{
     list-style: none;
+    
+}
+
+footer ul li a{
+    color: white;
+}
+footer img{
+    width: 20%;
 }
