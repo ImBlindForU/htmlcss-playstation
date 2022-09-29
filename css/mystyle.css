@@ -50,3 +50,9 @@ img{
     background-color: #1F1F1F;
     color: white;
 }
+
+/* plus */
+
+#plus .container-fluid{
+    background-color: #BEBCBB;
+}
