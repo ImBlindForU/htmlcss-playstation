@@ -3,12 +3,28 @@ img{
 }
 
 /* header */
-
-
+/* top header */
 #ms-top-header{
     background-color: black;
 }
 
 #ms-top-header img{
     width: 20%; 
+}
+/* bot header */
+
+#ms-bot-header{
+    background-color: white;
+}
+/* jumbotron */
+
+#jumbotron{
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+#jumbotron .ms-margin-top{
+   margin-top: 100px !important;
 }
