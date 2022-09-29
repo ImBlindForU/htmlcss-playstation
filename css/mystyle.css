@@ -56,3 +56,23 @@ img{
 #plus .container-fluid{
     background-color: #BEBCBB;
 }
+
+/* now */
+
+#now .container-fluid{
+    background-color: #161C3B;
+    color: white;
+}
+
+
+/* footer */
+
+footer .container-fluid{
+    background-color: #00439C;
+    color: white    ;
+}
+
+
+footer ul li{
+    list-style: none;
+}
