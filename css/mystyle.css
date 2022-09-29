@@ -31,5 +31,15 @@ img{
 
 /* main */
 
-/* playstatio */
+/* taketwo */
 
+#taketwo{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 800px;
+}
+
+.ms-grandezza{
+    width: 60%;
+}
