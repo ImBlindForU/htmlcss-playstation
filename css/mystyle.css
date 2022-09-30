@@ -2,6 +2,48 @@ img{
     max-width: 100%;
 }
 
+
+/* .ms-btn-red{
+    --bs-btn-color: #198754;
+    --bs-btn-border-color: #198754;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+} */
+
+.ms-btn-red{
+    background-color: #CD3D0F;
+    color: white;
+    border: 1px solid #CD3D0F;
+}
+
+.ms-btn-black{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.ms-white:hover{
+    box-shadow: 0px 0px 0px 1px white inset;
+}
+.ms-black:hover{
+    box-shadow: 0px 0px 0px 2px black inset;
+}
+.ms-color-lightblue{
+    color: #157ED2;
+}
+.ms-color-grey{
+    color:rgba(0, 0, 0, 0.37);
+}
+
 /* header */
 /* top header */
 #ms-top-header{
@@ -16,13 +58,14 @@ img{
 #ms-bot-header{
     background-color: white;
 }
+
 /* jumbotron */
 
 #jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-position: bottom;
     background-size: cover;
-    height: 800px;
+    min-height: 600px;
 }
 
 #jumbotron .ms-margin-top{
@@ -31,13 +74,43 @@ img{
 
 /* main */
 
+/* game */
+#game .row div:hover{
+    transform: translatey(-20px);
+}
+
+.ms-shadow:hover{
+    border: 3px solid #519FDE;
+    box-shadow: 0px 0px 0px 1px white inset;
+}
+/* playstation */
+.ms-btn-blu{
+    color: white;
+    background-color: #157ED2;
+    border: 1px solid #157ED2;
+}
+
+.ms-btn-blu:hover{
+    box-shadow: 0px 0px 0px 1px white inset;
+}
+.ms-opa{
+    opacity: 0.5;
+}
+.ms-opa:hover{
+    opacity: 1;
+}
+
+.ms-annidata{
+    display: none;
+}
+
 /* taketwo */
 
 #taketwo{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: bottom;
     background-size: cover;
-    height: 800px;
+    min-height: 800px;
 }
 
 .ms-grandezza{
@@ -57,11 +130,31 @@ img{
     background-color: #BEBCBB;
 }
 
+.ms-btn-lightgrey{
+    color: #157ED2;
+    background-color: #efefef;
+    border: 1px solid #efefef;
+}
+
+.ms-btn-lightgrey:hover{
+    box-shadow: 0px 0px 0px 1px black inset;
+}
+
 /* now */
 
 #now .container-fluid{
     background-color: #161C3B;
     color: white;
+}
+
+.ms-btn-light{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.ms-btn-light:hover{
+    box-shadow: 0px 0px 0px 1px black inset;
 }
 
 
